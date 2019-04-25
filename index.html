@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HW6</title>
+    <link rel="stylesheet" href="hw6.css">
+    
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Full Name</label>
+                        <input type="text" name="fullName" id="fullName"> 
+                    </div>
+                    <div>
+                            <label>Favorite Color</label>
+                            <input type="text" name="favoriteColor" id="favoriteColor"> 
+                    </div>
+                    <div>
+                            <label>Hobby</label>
+                            <input type="text" name="hobby" id="hobby"> 
+                     </div>
+                    <div>
+                            <label>Occupation</label>
+                         <input type="text" name="occupation" id="occupation"> 
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Save">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="nameList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Favorite Color</th>
+                            <th>Hobby</th>
+                            <th>Occupation</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    
+
+<script src="hw6.js"></script>   
+</body>
+<script src="hw6.js"></script>
+</html>
